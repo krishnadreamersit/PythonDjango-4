@@ -1,0 +1,25 @@
+# python <enter>
+python console (terminal) # apply python commands
+
+# CLS - Screen Clear
+
+# pip <command> # Install/Uninstall python packages (library)
+# Commands
+    # install
+    # uninstall
+    # -V, --version
+    # freeze - export the list of 3rd part package/library installed in current system
+    # pip freeze > libs.txt
+
+# Virtual Environment - Package (library)
+    # pip install virtualenv # Auto install
+    # Manual download and install
+    # virtualenv --version
+
+# Django - Package (library)
+    # pip install Django
+    # Manual download and install
+    # django-admin --version
+
+
+

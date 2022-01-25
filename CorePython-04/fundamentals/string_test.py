@@ -1,8 +1,8 @@
 # Declare & Initialize String
-str1 = 'Broadway Infosys'
-str2 = "Broadway Infosys"
-str3 = '''Broadway Infosys'''
-str4 = """Broadway Infosys"""
+# str1 = 'Broadway Infosys'
+# str2 = "Broadway Infosys"
+# str3 = '''Broadway Infosys'''
+# str4 = """Broadway Infosys"""
 
 # Access String
 """
@@ -121,7 +121,7 @@ str1.__add__("What is Python?")
 str1.__add__(" Executive Summary")
 print(str1)
 """
-
+# str1=""
 # str1+="What is Python?"
 # str1+=" Executive Summary"
 # print(str1)
@@ -202,17 +202,74 @@ print(str2) #***********Broadways
 # result = str1.count(str2)
 # print(result)  # 2
 
-# encode(self, /, encoding='utf-8', errors='strict')
+# encode(self, /, encoding='utf-8', errors='strict') ?
 # Encode the string using the codec registered for encoding.
 
 # endswith(...)
 # S.endswith(suffix[, start[, end]]) -> bool
 # Return True if S ends with the specified suffix, False otherwise.
 
-str1 = "suffix can also be a tuple of strings to try."
-result = str1.endswith(".")
-print(result)
+# str1 = "suffix can also be a tuple of strings to try."
+# result = str1.endswith(".")
+# print(result)
 
-str1 = "suffix can also be a tuple of strings to try;"
-result = str1.endswith(";")
-print(result)
+# str1 = "suffix can also be a tuple of strings to try;"
+# result = str1.endswith(";")
+# print(result)
+
+# expandtabs(self, /, tabsize=8)
+# Return a copy where all tab characters are expanded using spaces.
+# Tab -> Multiple Spaces
+
+# str1 = "SN\tNAME\tADDRESS"
+# str2 = "1\tKrishna\tKathmand"
+# print(str1)
+# print(str2)
+# print(str1.expandtabs(20))
+# print(str2.expandtabs(20))
+
+# find(sub[, start[, end]]) -> int
+# Return the lowest index in S where substring sub is found
+# Return -1 on failure.
+
+# str1 ="""Structural pattern matching has been added in the form of a match statement and case statements of patterns with associated actions. Patterns consist of sequences, mappings, primitive data types as well as class instances. Pattern matching enables programs to extract information from complex data types, branch on the structure of data, and apply specific actions based on different forms of data."""
+# str2 ="patterns"
+# result = str1.find(str2, 0, len(str1)-1)
+# print(result)
+#
+# str2 ="Patterns"
+# result = str1.find(str2, 0, len(str1)-1)
+# print(result)
+
+# str1 ="""Structural pattern matching has been added in the form of a match statement and case statements of patterns with associated actions. Patterns consist of sequences, mappings, primitive data types as well as class instances. Pattern matching enables programs to extract information from complex data types, branch on the structure of data, and apply specific actions based on different forms of data."""
+# str2 ="the"
+# count =str1.count(str2)
+# print(count)  # times -> 2
+# # position ?
+# result1 = str1.find(str2, 0, len(str1)-1)
+# print(result1)
+# result2 = str1.find(str2, result1+len(str2), len(str1)-1)
+# print(result2)
+
+# str1 ="""Structural pattern matching has been added in the form of a match statement and case statements of patterns with associated actions. Patterns consist of sequences, mappings, primitive data types as well as class instances. Pattern matching enables programs to extract information from complex data types, branch on the structure of data, and apply specific actions based on different forms of data."""
+# str2 ="of"
+# count =str1.count(str2)
+# print(count)
+# result1 = str1.find(str2, 0, len(str1)-1)
+# result2 = str1.find(str2, result1+len(str2), len(str1)-1)
+# result3 = str1.find(str2, result2+len(str2), len(str1)-1)
+# result4 = str1.find(str2, result3+len(str2), len(str1)-1)
+# result5 = str1.find(str2, result4+len(str2), len(str1)-1)
+# print(result1, result2, result3, result4, result5)
+
+# format(*args, **kwargs) -> str
+# Return a formatted version of S, using substitutions from args and kwargs.
+
+firstname ="Unanyan"
+lastname ="Thapa"
+
+# Fullnane : Unanyan Thapa # Expected Result
+print("Fullname : ", firstname, lastname)
+print("Fullname : {} {}".format(firstname, lastname))
+print("Fullname : {0} {1}".format(firstname, lastname))
+print("Fullname : {1} {0}".format(firstname, lastname))
