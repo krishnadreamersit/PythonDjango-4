@@ -2,9 +2,17 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="93bba6e6-cabf-4136-b3e8-8f077e2c2bad" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../CorePython-04/basics/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CorePython-04/basics/scripts.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CorePython-04/Case Studies/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CorePython-04/Case Studies/pdf_to_text/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CorePython-04/Case Studies/pdf_to_text/pdf_to_text.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MySite401/MySite401/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MySite401/MySite401/asgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MySite401/MySite401/settings.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MySite401/MySite401/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MySite401/MySite401/wsgi.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MySite401/manage.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../CorePython-04/fundamentals/string_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../CorePython-04/fundamentals/string_test.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../CourseNotes.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../CourseNotes.docx" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -76,7 +84,8 @@
       <option name="presentableId" value="Default" />
       <updated>1643026691310</updated>
       <workItem from="1643026692556" duration="25000" />
-      <workItem from="1643077112031" duration="4082000" />
+      <workItem from="1643077112031" duration="5436000" />
+      <workItem from="1643163980437" duration="4251000" />
     </task>
     <servers />
   </component>
@@ -95,6 +104,6 @@
     </option>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
-    <SUITE FILE_PATH="coverage/CorePython_1$string_test.coverage" NAME="string_test Coverage Results" MODIFIED="1643080075789" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../CorePython-04/fundamentals" />
+    <SUITE FILE_PATH="coverage/CorePython_1$string_test.coverage" NAME="string_test Coverage Results" MODIFIED="1643167074826" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../CorePython-04/fundamentals" />
   </component>
 </project>

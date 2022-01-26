@@ -255,21 +255,125 @@ print(str2) #***********Broadways
 # str2 ="of"
 # count =str1.count(str2)
 # print(count)
-# result1 = str1.find(str2, 0, len(str1)-1)
-# result2 = str1.find(str2, result1+len(str2), len(str1)-1)
-# result3 = str1.find(str2, result2+len(str2), len(str1)-1)
-# result4 = str1.find(str2, result3+len(str2), len(str1)-1)
-# result5 = str1.find(str2, result4+len(str2), len(str1)-1)
+# result1 = str1.find(str2, 0, len(str1)-1) # 55
+# result2 = str1.find(str2, result1+len(str2), len(str1)-1) # 96
+# result3 = str1.find(str2, result2+len(str2), len(str1)-1) # 150
+# result4 = str1.find(str2, result3+len(str2), len(str1)-1) # 329
+# result5 = str1.find(str2, result4+len(str2), len(str1)-1) # 390
 # print(result1, result2, result3, result4, result5)
 
 # format(*args, **kwargs) -> str
 # Return a formatted version of S, using substitutions from args and kwargs.
 
-firstname ="Unanyan"
-lastname ="Thapa"
+# firstname ="Unanyan"
+# lastname ="Thapa"
 
 # Fullnane : Unanyan Thapa # Expected Result
-print("Fullname : ", firstname, lastname)
-print("Fullname : {} {}".format(firstname, lastname))
-print("Fullname : {0} {1}".format(firstname, lastname))
-print("Fullname : {1} {0}".format(firstname, lastname))
+# print("Fullname : ", firstname, lastname)
+# print("Fullname : {} {}".format(firstname, lastname))
+# print("Fullname : {0} {1}".format(firstname, lastname))
+# print("Fullname : {1} {0}".format(firstname, lastname))
+
+# index(sub[, start[, end]]) -> int
+# Return the lowest index in S where substring sub is found
+# Raises ValueError when the substring is not found.
+
+str1 = "Return the lowest index in S where substring sub is found. Raises ValueError when the substring is not found. Return True if the string is an alphabetic string, False otherwise."
+str2 = "the"
+
+# Solution-1
+# count = str1.count(str2)
+# print(count)
+# result1 = str1.index(str2, 0, len(str1)-1)
+# print(result1)
+# result2 = str1.index(str2, result1+len(str2), len(str1)-1)
+# print(result2)
+
+# Solution-2
+"""
+file = open('D:\\Python\\PythonDjango-4\\resources\\Catching Fire.txt')
+str1 = file.read()
+str2 = "the"
+count = str1.count(str2)
+print("Total : {}".format(count))
+
+if count>0:
+    for i in range(count):
+        if i ==0:
+            result = str1.index(str2, 0, len(str1)-1)
+            print("{} - {}".format(i, result))
+        else:
+            result = str1.index(str2, result+1, len(str1) - 1)
+            print("{} - {}".format(i, result))
+"""
+
+# isalpha(self, /)
+# Return True if the string is an alphabetic string, False otherwise.
+# str1 = "ABC123"
+# print(str1.isalnum()) # True
+#
+# str1 = "ABC 123"
+# print(str1.isalnum()) # True
+
+# isalnum(self, /)
+# Return True if the string is an alpha-numeric string, False otherwise.
+
+# str1 = "ABC123"
+# print(str1.isalnum()) # True
+
+# str1 = "ABC 123"
+# print(str1.isalnum()) # False
+
+# isascii(self, /)
+# str1 = "ABC 123"
+# print(str1.isascii()) # True
+
+# print(ord('A')) # ASCII Code -> 65 (0-255)
+# print(chr(65)) # ASCII Code -> A
+
+# str1 = "आज कुन कुन प्रदेशमा छ त बर्षा को सम्भावना??"
+# print(str1.isascii()) # False -> Unicode
+
+# print(ord('त')) # ASCII Code -> 2340
+# print(chr(2340)) # ASCII Code -> त
+
+# isdecimal(self, /)
+# isdigit(self, /)
+# isidentifier(self, /)
+# islower(self, /)
+# isnumeric(self, /)
+# isprintable(self, /)
+# isspace(self, /)
+# istitle(self, /)
+# isupper(self, /)
+
+# join(self, iterable, /)
+# Concatenate any number of strings.
+
+# items =['Concatenate', 'any', 'number', 'of', 'strings.'] # List
+# print(items)
+# print(' '.join(items))
+
+# lower(self, /)
+# Return a copy of the string converted to lowercase.
+
+# str1 = "Return A Copy of The String Converted to Lowercase."
+# print(str1)
+# print(str1.lower())
+
+# strip(self, chars=None, /)
+# Return a copy of the string with leading and trailing whitespace removed.
+
+str1 = " Broadway "
+print(len(str1))
+print(str1)
+
+str2 = str1.strip()
+print(len(str2))
+print(str2)
+
+# lstrip(self, chars=None, /)
+# Return a copy of the string with leading whitespace removed.
+
+# rstrip(self, chars=None, /)
+# Return a copy of the string with trailing whitespace removed.
