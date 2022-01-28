@@ -2,18 +2,27 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="93bba6e6-cabf-4136-b3e8-8f077e2c2bad" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../CorePython-04/Case Studies/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CorePython-04/Case Studies/pdf_to_text/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CorePython-04/Case Studies/pdf_to_text/pdf_to_text.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MySite401/MySite401/__init__.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MySite401/MySite401/asgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MySite401/MySite401/settings.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MySite401/MySite401/urls.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MySite401/MySite401/wsgi.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../MySite401/manage.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CorePython-04/fundamentals/string_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../CorePython-04/fundamentals/string_test.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MySite401/app1_1/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MySite401/app1_1/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MySite401/app1_1/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MySite401/app1_1/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MySite401/app1_1/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MySite401/app1_1/templates/app1_1/placements.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MySite401/app1_1/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MySite401/app1_1/views.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MySite401/app1_2/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MySite401/app1_2/admin.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MySite401/app1_2/apps.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MySite401/app1_2/migrations/__init__.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MySite401/app1_2/models.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MySite401/app1_2/templates/app1_2/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MySite401/app1_2/tests.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MySite401/app1_2/urls.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../MySite401/app1_2/views.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../CourseNotes.docx" beforeDir="false" afterPath="$PROJECT_DIR$/../CourseNotes.docx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MySite401/MySite401/settings.py" beforeDir="false" afterPath="$PROJECT_DIR$/../MySite401/MySite401/settings.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../MySite401/MySite401/urls.py" beforeDir="false" afterPath="$PROJECT_DIR$/../MySite401/MySite401/urls.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -86,6 +95,10 @@
       <workItem from="1643026692556" duration="25000" />
       <workItem from="1643077112031" duration="5436000" />
       <workItem from="1643163980437" duration="4251000" />
+      <workItem from="1643244717714" duration="341000" />
+      <workItem from="1643250173662" duration="654000" />
+      <workItem from="1643285828916" duration="646000" />
+      <workItem from="1643335638044" duration="1362000" />
     </task>
     <servers />
   </component>
