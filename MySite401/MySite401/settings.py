@@ -39,6 +39,7 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'app1_1', # Register app1_1
     'app1_2', # Loading HTML File, Style Sheet, Images, JavaScript Files
+    'app1_3', # Sending value from web-form
 ]
 
 MIDDLEWARE = [

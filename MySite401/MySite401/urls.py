@@ -25,4 +25,5 @@ urlpatterns = [
     path('welcome', views.welcome), # 127.0.0.1:8000/welcome
     path('placement', views.placement), # 127.0.0.1:8000/placement
     path('app1_2/', include("app1_2.urls")), # 127.0.0.1:800/app1_2/
+    path('app1_3/', include("app1_3.urls")), # 127.0.0.1:800/app1_3/
 ]
