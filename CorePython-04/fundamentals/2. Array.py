@@ -112,3 +112,10 @@ from array import array
 # arr1 = array('i', [3,5,6,5,8,6])
 # print(arr1.itemsize) # 4
 # print(arr1.typecode) # i
+
+arr1 = array('i', [3,5,6,5,8,6])
+num = 5
+result1 = arr1.index(num, 0, len(arr1)-1)
+print(result1)
+result2 = arr1.index(num, result1+1, len(arr1)-1)
+print(result2)

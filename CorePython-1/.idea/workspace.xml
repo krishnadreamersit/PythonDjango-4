@@ -2,16 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="93bba6e6-cabf-4136-b3e8-8f077e2c2bad" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/../CorePython-04/fundamentals/12. CSV.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CorePython-04/fundamentals/13. DBMS.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CorePython-04/fundamentals/5. Set.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CorePython-04/fundamentals/6. Dictionary.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CorePython-04/fundamentals/7, Control Statements.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CorePython-04/fundamentals/8. Looping Statements.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/../CorePython-04/fundamentals/9. Functions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CorePython-04/fundamentals/dictionary_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../CorePython-04/fundamentals/10. OOPs.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CorePython-04/fundamentals/set_test.py" beforeDir="false" afterPath="$PROJECT_DIR$/../CorePython-04/fundamentals/11. FileIO.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CorePython-04/fundamentals/task10.py" beforeDir="false" afterPath="$PROJECT_DIR$/../CorePython-04/fundamentals/task10.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CorePython-04/fundamentals/9. OOPs.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CorePython-04/fundamentals/task11.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CorePython-04/fundamentals/10. OOPs.py" beforeDir="false" afterPath="$PROJECT_DIR$/../CorePython-04/fundamentals/10. Exceptions.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CorePython-04/fundamentals/2. Array.py" beforeDir="false" afterPath="$PROJECT_DIR$/../CorePython-04/fundamentals/2. Array.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CorePython-04/fundamentals/8. Functions.py" beforeDir="false" afterPath="$PROJECT_DIR$/../CorePython-04/fundamentals/8. Functions.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,9 +39,10 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.project" />
   </component>
-  <component name="RunManager" selected="Python.7, Control Statements">
-    <configuration name="3. List" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Python.10. Exceptions">
+    <configuration name="10. Exceptions" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="CorePython-04" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -59,7 +55,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../CorePython-04/fundamentals/3. List.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../CorePython-04/fundamentals/10. Exceptions.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -68,7 +64,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="4. Tuplet" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="2. Array" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="CorePython-04" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -81,51 +77,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../CorePython-04/fundamentals/4. Tuplet.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="5. Set" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="CorePython-04" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../CorePython-04/fundamentals" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../CorePython-04/fundamentals/5. Set.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
-    <configuration name="6. Dictionary" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
-      <module name="CorePython-04" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../CorePython-04/fundamentals" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../CorePython-04/fundamentals/6. Dictionary.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../CorePython-04/fundamentals/2. Array.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -156,13 +108,57 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
+    <configuration name="8. Functions" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="CorePython-04" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../CorePython-04/fundamentals" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../CorePython-04/fundamentals/8. Functions.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="9. OOPs" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="CorePython-04" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/../CorePython-04/fundamentals" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../CorePython-04/fundamentals/9. OOPs.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.10. Exceptions" />
+        <item itemvalue="Python.9. OOPs" />
+        <item itemvalue="Python.8. Functions" />
+        <item itemvalue="Python.2. Array" />
         <item itemvalue="Python.7, Control Statements" />
-        <item itemvalue="Python.6. Dictionary" />
-        <item itemvalue="Python.5. Set" />
-        <item itemvalue="Python.4. Tuplet" />
-        <item itemvalue="Python.3. List" />
       </list>
     </recent_temporary>
   </component>
@@ -188,7 +184,13 @@
       <workItem from="1643632658153" duration="604000" />
       <workItem from="1643676894956" duration="4378000" />
       <workItem from="1643718330714" duration="1234000" />
-      <workItem from="1643762757106" duration="4261000" />
+      <workItem from="1643762757106" duration="6098000" />
+      <workItem from="1643849232682" duration="4234000" />
+      <workItem from="1643893611068" duration="114000" />
+      <workItem from="1643935965389" duration="4581000" />
+      <workItem from="1644109234301" duration="3636000" />
+      <workItem from="1644150263051" duration="608000" />
+      <workItem from="1644195575227" duration="2146000" />
     </task>
     <servers />
   </component>
@@ -207,9 +209,13 @@
     </option>
   </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
+    <SUITE FILE_PATH="coverage/CorePython_1$8__Functions.coverage" NAME="8. Functions Coverage Results" MODIFIED="1644196202890" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../CorePython-04/fundamentals" />
     <SUITE FILE_PATH="coverage/CorePython_1$string_test.coverage" NAME="string_test Coverage Results" MODIFIED="1643167074826" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../CorePython-04/fundamentals" />
     <SUITE FILE_PATH="coverage/CorePython_1$array_test.coverage" NAME="array_test Coverage Results" MODIFIED="1643512722887" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../CorePython-04/fundamentals" />
+    <SUITE FILE_PATH="coverage/CorePython_1$10__Exceptions.coverage" NAME="10. Exceptions Coverage Results" MODIFIED="1644197688165" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../CorePython-04/fundamentals" />
+    <SUITE FILE_PATH="coverage/CorePython_1$2__Array.coverage" NAME="2. Array Coverage Results" MODIFIED="1643818023654" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../CorePython-04/fundamentals" />
     <SUITE FILE_PATH="coverage/CorePython_1$4__Tuplet.coverage" NAME="4. Tuplet Coverage Results" MODIFIED="1643594312678" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../CorePython-04/fundamentals" />
+    <SUITE FILE_PATH="coverage/CorePython_1$9__OOPs.coverage" NAME="9. OOPs Coverage Results" MODIFIED="1644196640416" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../CorePython-04/fundamentals" />
     <SUITE FILE_PATH="coverage/CorePython_1$3__List.coverage" NAME="3. List Coverage Results" MODIFIED="1643593867792" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../CorePython-04/fundamentals" />
     <SUITE FILE_PATH="coverage/CorePython_1$6__Dictionary.coverage" NAME="6. Dictionary Coverage Results" MODIFIED="1643679877696" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../CorePython-04/fundamentals" />
     <SUITE FILE_PATH="coverage/CorePython_1$7__Control_Statements.coverage" NAME="7, Control Statements Coverage Results" MODIFIED="1643766877999" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../CorePython-04/fundamentals" />
