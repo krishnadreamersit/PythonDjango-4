@@ -1,7 +1,7 @@
 # Error Handling (Exceptions)
 # 1. Syntax Error
-# 2. Runtime Error
-# 3. Logical Error
+# 2. Runtime Error (Exception)
+# 3. Logical Error (Mistake in Program)
 
 # 1. Syntax Error
 # print("hello) # SyntaxError: unterminated string literal (detected at line 7)
@@ -80,12 +80,14 @@ print("Result : {}".format(num3))
 """
 
 # Example-6
+"""
 import sys
-
 num1 = 10
 num2 = 0
 num3 = 0
+
 try:
+    # input, process, output
     num3 = num1/num2 # ZeroDivisionError: division by zero
     print("Result : {}".format(num3))
 except:
@@ -96,4 +98,63 @@ finally:
     del num2
     del num3
 
-# 3. Logical Error
+# How to create user defined exceptions
+class MyException(Exception):
+    pass
+
+class NumberTooSmallException(MyException):
+    pass
+
+class NumberTooLargeException(MyException):
+    pass
+
+import sys
+num1 = 0
+try:
+    num1 = int(input("Enter any number : "))
+    if(num1<0):
+        raise NumberTooSmallException()
+    elif(num1>10):
+        raise NumberTooLargeException()
+    else:
+        print("Num : ", num1)
+except NumberTooSmallException:
+    print("Error : num1 is less than 0, please enter value between 0 - 10")
+except NumberTooLargeException:
+    print("Error : num1 is greater than 10, please enter value between 0 - 10")
+except:
+    print("Error : ", sys.exc_info()[1])
+finally:
+    del num1
+"""
+
+# 3. Logical Error - Debugging
+# Debugging
+# Tracing line by line execution of source code
+
+# Example-1
+# Library import
+import sys
+
+# Start and Declare # No Error - Syntax Error
+num1 = None
+num2 = None
+num3 = None
+try:
+    # input, process, output
+    num1 = int(input("Enter first no : ")) # Stop Point -> Debug (Shift + F9)
+    num2 = int(input("Enter second no : "))
+    num3 = num1 + num2
+    print("Sum : ", num3)
+except:
+    # Error Message
+    print("Error : ", sys.exc_info()[1])
+finally:
+    # Exit
+    del num1
+    del num2
+    del num3
+
+
+
+

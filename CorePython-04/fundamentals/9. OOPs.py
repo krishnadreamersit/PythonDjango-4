@@ -222,7 +222,81 @@ obj2.f2()
 # Task9_3
     # Explore the concept of Encapsulation, Method Overloading, Inheritance, and Method Overriding with proper example.
 
+# Encapsulation
+class Person():
+    def __init__(self, pid=0, name=''):
+        self.pid = pid
+        self.name = name
+
+    # getters
+    def getPID(self):
+        return self.pid
+
+    def getName(self):
+        return self.name
+
+    # getters
+    def setPID(self, pid):
+        self.pid=pid
+
+    def setName(self, name):
+        self.name=name
+
+    def __str__(self):
+        return str(self.pid)+", "+self.name
+
+# Encapsulation
+    # Binding variables and methods in one class
+    # pid, name - variables
+    # __init__()
+    # getPID()
+    # getName()
+    # setPID()
+    # setName()
+    # __str__()
+
+# Method Overloading
+# One method (function) have different forms in a single class
+class Person():
+    def __init__(self, pid=0, name=''):
+        self.pid = pid
+        self.name = name
+
+# One function have four forms - method overloading
+p1 = Person()
+p2 = Person(pid=1)
+p3 = Person(name='Unanayan')
+p4 = Person(2, "John")
 
 
+# Method Overriding
+class Person():
+    def __init__(self, pid=0, name=''):
+        self.pid = pid
+        self.name = name
 
+    def getPID(self):
+        return self.pid
+
+class Student():
+    def __init__(self, grade='', section=''):
+        self.grade = grade
+        self.section=section
+
+class NewStudent(Person): # NewStudent is sub class of Person class
+    def __init__(self, pid=0, name='', grade='', section=''):
+        super.__init__(self, pid, name)  # super -> Super Class i.e. Person
+        self.grade = grade
+        self.section=section
+
+    def getPID(self): # Method Overriding
+        return super().getPID()
+
+    # Super Class's method re-write in current class (child class) is called method overriding
+
+s1 = NewStudent()
+s1.pid=1
+s1.name="John"
+s1.grade="BSCIT"
+s1.section="A"
 
