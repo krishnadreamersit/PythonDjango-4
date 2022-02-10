@@ -2,10 +2,9 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="93bba6e6-cabf-4136-b3e8-8f077e2c2bad" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../CorePython-04/fundamentals/10. Exceptions.py" beforeDir="false" afterPath="$PROJECT_DIR$/../CorePython-04/fundamentals/10. Exceptions.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CorePython-04/fundamentals/11. FileIO.py" beforeDir="false" afterPath="$PROJECT_DIR$/../CorePython-04/fundamentals/11. FileIO.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../CorePython-04/fundamentals/mydb.db" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../CorePython-04/fundamentals/12. CSV.py" beforeDir="false" afterPath="$PROJECT_DIR$/../CorePython-04/fundamentals/12. CSV.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../CorePython-04/fundamentals/9. OOPs.py" beforeDir="false" afterPath="$PROJECT_DIR$/../CorePython-04/fundamentals/9. OOPs.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../CorePython-04/fundamentals/13. DBMS.py" beforeDir="false" afterPath="$PROJECT_DIR$/../CorePython-04/fundamentals/13. DBMS.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -40,7 +39,7 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="settings.editor.selected.configurable" value="configurable.group.project" />
   </component>
-  <component name="RunManager" selected="Python.12. CSV">
+  <component name="RunManager" selected="Python.13. DBMS">
     <configuration name="10. Exceptions" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="CorePython-04" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -107,7 +106,7 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="8. Functions" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+    <configuration name="13. DBMS" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
       <module name="CorePython-04" />
       <option name="INTERPRETER_OPTIONS" value="" />
       <option name="PARENT_ENVS" value="true" />
@@ -120,7 +119,7 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <EXTENSION ID="PythonCoverageRunConfigurationExtension" runner="coverage.py" />
-      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../CorePython-04/fundamentals/8. Functions.py" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/../CorePython-04/fundamentals/13. DBMS.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -153,11 +152,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.13. DBMS" />
         <item itemvalue="Python.12. CSV" />
         <item itemvalue="Python.11. FileIO" />
         <item itemvalue="Python.10. Exceptions" />
         <item itemvalue="Python.9. OOPs" />
-        <item itemvalue="Python.8. Functions" />
       </list>
     </recent_temporary>
   </component>
@@ -192,7 +191,9 @@
       <workItem from="1644195575227" duration="2259000" />
       <workItem from="1644237223355" duration="157000" />
       <workItem from="1644281707494" duration="4403000" />
-      <workItem from="1644367865837" duration="4443000" />
+      <workItem from="1644367865837" duration="4878000" />
+      <workItem from="1644409190734" duration="603000" />
+      <workItem from="1644454424911" duration="3289000" />
     </task>
     <servers />
   </component>
@@ -210,17 +211,6 @@
       </map>
     </option>
   </component>
-  <component name="XDebuggerManager">
-    <breakpoint-manager>
-      <breakpoints>
-        <line-breakpoint enabled="true" suspend="THREAD" type="python-line">
-          <url>file://$PROJECT_DIR$/../CorePython-04/fundamentals/10. Exceptions.py</url>
-          <line>144</line>
-          <option name="timeStamp" value="2" />
-        </line-breakpoint>
-      </breakpoints>
-    </breakpoint-manager>
-  </component>
   <component name="com.intellij.coverage.CoverageDataManagerImpl">
     <SUITE FILE_PATH="coverage/CorePython_1$8__Functions.coverage" NAME="8. Functions Coverage Results" MODIFIED="1644196202890" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../CorePython-04/fundamentals" />
     <SUITE FILE_PATH="coverage/CorePython_1$11__FileIO.coverage" NAME="11. FileIO Coverage Results" MODIFIED="1644370942126" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../CorePython-04/fundamentals" />
@@ -231,9 +221,10 @@
     <SUITE FILE_PATH="coverage/CorePython_1$7__Control_Statements.coverage" NAME="7, Control Statements Coverage Results" MODIFIED="1643766877999" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../CorePython-04/fundamentals" />
     <SUITE FILE_PATH="coverage/CorePython_1$string_test.coverage" NAME="string_test Coverage Results" MODIFIED="1643167074826" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../CorePython-04/fundamentals" />
     <SUITE FILE_PATH="coverage/CorePython_1$10__Exceptions.coverage" NAME="10. Exceptions Coverage Results" MODIFIED="1644369420032" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../CorePython-04/fundamentals" />
+    <SUITE FILE_PATH="coverage/CorePython_1$13__DBMS.coverage" NAME="13. DBMS Coverage Results" MODIFIED="1644457720546" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../CorePython-04/fundamentals" />
     <SUITE FILE_PATH="coverage/CorePython_1$3__List.coverage" NAME="3. List Coverage Results" MODIFIED="1643593867792" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../CorePython-04/fundamentals" />
     <SUITE FILE_PATH="coverage/CorePython_1$6__Dictionary.coverage" NAME="6. Dictionary Coverage Results" MODIFIED="1643679877696" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../CorePython-04/fundamentals" />
-    <SUITE FILE_PATH="coverage/CorePython_1$12__CSV.coverage" NAME="12. CSV Coverage Results" MODIFIED="1644372335980" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../CorePython-04/fundamentals" />
+    <SUITE FILE_PATH="coverage/CorePython_1$12__CSV.coverage" NAME="12. CSV Coverage Results" MODIFIED="1644372350801" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../CorePython-04/fundamentals" />
     <SUITE FILE_PATH="coverage/CorePython_1$5__Set.coverage" NAME="5. Set Coverage Results" MODIFIED="1643678738638" SOURCE_PROVIDER="com.intellij.coverage.DefaultCoverageFileProvider" RUNNER="coverage.py" COVERAGE_BY_TEST_ENABLED="true" COVERAGE_TRACING_ENABLED="false" WORKING_DIRECTORY="$PROJECT_DIR$/../CorePython-04/fundamentals" />
   </component>
 </project>

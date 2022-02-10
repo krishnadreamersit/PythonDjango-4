@@ -30,6 +30,7 @@ finally:
 
 # Example-2
 # Reading rows from CSV
+"""
 import csv
 import sys
 filename = "D:/Python/PythonDjango-4/MyFiles/data3.csv"
@@ -43,3 +44,4 @@ except:
     print("Error : ", sys.exc_info()[1])
 finally:
     del filename
+"""
