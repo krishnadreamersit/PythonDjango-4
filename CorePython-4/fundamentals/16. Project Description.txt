@@ -1,0 +1,19 @@
+# Core Python - Project
+    # Title: Any
+    # Scope : Core Python All
+        # data types
+        # class
+        # control statements (breanching, looping and othes)
+        # operators
+        # functions (user defined, and system defined)
+        # OOP
+        # Exception handling
+        # CSV, Database - Connection
+            # CRUD - insert, update, select, delete
+    # Mode: CUI/GUI
+# Duration: 2 Weeks
+
+# UI-UX Designing
+    # HTML, CSS, JavaScript, Bootstrap, Simple Image Editing - Revised your self.
+    # Single Page Site, Multi-page site
+    # Node, Angular or View or React JS - Review your self.
