@@ -363,7 +363,7 @@ if count>0:
 
 # strip(self, chars=None, /)
 # Return a copy of the string with leading and trailing whitespace removed.
-
+"""
 str1 = " Broadway "
 print(len(str1))
 print(str1)
@@ -371,9 +371,40 @@ print(str1)
 str2 = str1.strip()
 print(len(str2))
 print(str2)
+"""
 
 # lstrip(self, chars=None, /)
 # Return a copy of the string with leading whitespace removed.
 
 # rstrip(self, chars=None, /)
 # Return a copy of the string with trailing whitespace removed.
+
+"""
+find function in python
+"""
+str1 = """
+Strings are useful for holding data that can be represented in text form. 
+Some of the most-used operations on strings are to check their length, 
+to build and concatenate them using the + and += string operators, checking 
+for the existence or location of substrings with the indexOf() method, 
+or extracting substrings with the substring() method.
+"""
+str2 = "the"
+
+count = str1.count(str2)
+print(count)
+
+# str.find(sub[, start[, end]] )
+
+# default value
+# start = 0
+# end = len(str)
+
+if(count>0):
+    start = 0
+    for i in range(count):
+        if(i == 0):
+            result = str1.find(str2, start, len(str1))
+        else:
+            result = str1.find(str2, result+len(str2), len(str1))
+        print(result)
