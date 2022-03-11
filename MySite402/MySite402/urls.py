@@ -23,5 +23,6 @@ urlpatterns = [
     path('index', views.index), # http://127.0.0.1:8000/index
     path('home/', views.home), # http://127.0.0.1:8000/home/
     path('app1_1/', include('app1_1.urls')),
+    path('app1_2/', include('app1_2.urls')),
     path('admin/', admin.site.urls), # http://127.0.0.1:8000/admin/
 ]
