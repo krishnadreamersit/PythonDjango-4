@@ -24,5 +24,8 @@ urlpatterns = [
     path('home/', views.home), # http://127.0.0.1:8000/home/
     path('app1_1/', include('app1_1.urls')),
     path('app1_2/', include('app1_2.urls')),
+    path('app1_3/', include('app1_3.urls')),
+    path('app1_4/', include('app1_4.urls')),
+    path('app1_5/', include('app1_5.urls')), # testing bootstrap library
     path('admin/', admin.site.urls), # http://127.0.0.1:8000/admin/
 ]

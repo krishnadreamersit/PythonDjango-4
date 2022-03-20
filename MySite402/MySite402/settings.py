@@ -39,6 +39,9 @@ INSTALLED_APPS = [
     'django.contrib.staticfiles',
     'app1_1', # first app1_1
     'app1_2', # loading static contents (css, image, and javascript)
+    'app1_3', # loading bootstrap library (CDN/online)
+    'app1_4', # loading bootstrap library (offline)
+    'app1_5', # bootstrap library test
 ]
 
 MIDDLEWARE = [
