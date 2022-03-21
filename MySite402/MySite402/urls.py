@@ -17,6 +17,7 @@ from django.contrib import admin
 from django.urls import path, include
 # 1. import view
 from . import views
+from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 
 urlpatterns = [
     path('', views.default), # Default Url Pattern # http://localhost:8000 or http://127.0.0.1:8000
@@ -27,5 +28,7 @@ urlpatterns = [
     path('app1_3/', include('app1_3.urls')),
     path('app1_4/', include('app1_4.urls')),
     path('app1_5/', include('app1_5.urls')), # testing bootstrap library
+    path('app1_6/', include('app1_6.urls')), # bootstrap one page site
     path('admin/', admin.site.urls), # http://127.0.0.1:8000/admin/
 ]
+urlpatterns += staticfiles_urlpatterns()

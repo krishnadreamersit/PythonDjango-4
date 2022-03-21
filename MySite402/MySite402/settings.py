@@ -42,6 +42,7 @@ INSTALLED_APPS = [
     'app1_3', # loading bootstrap library (CDN/online)
     'app1_4', # loading bootstrap library (offline)
     'app1_5', # bootstrap library test
+    'app1_6', # bootstrap one page site
 ]
 
 MIDDLEWARE = [
