@@ -45,6 +45,7 @@ INSTALLED_APPS = [
     'app1_6', # bootstrap one page site
     'app1_7', # Sending values from client to server-1 (url)
     'app1_8', # Sending values from client to server-2 (webform)
+    'app1_9', # ePanel for subscribtion and user feedback
 ]
 
 MIDDLEWARE = [

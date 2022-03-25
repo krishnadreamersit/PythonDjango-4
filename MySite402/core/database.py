@@ -48,17 +48,21 @@ def insert_record(email):
 
 def select_all():
     sql = "SELECT * FROM emails"
+    emails = []
     try:
         conn = sqlite3.connect(DB_NAME)
         cursor = conn.cursor()
         cursor.execute(sql)
         records = cursor.fetchall()
-        print(records)
+        for record in records:
+            #emails.append(record)
+            print(record) # ('krishna@gmail.com',)
+            emails.append(record[0])
         cursor.close()
         conn.close()
-        print("Display all records successfully")
     except:
         print("Error: ", sys.exc_info()[1])
+    return emails
 
 # Test
 # create_table()
