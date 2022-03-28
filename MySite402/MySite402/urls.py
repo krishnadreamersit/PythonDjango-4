@@ -32,6 +32,7 @@ urlpatterns = [
     path('app1_7/', include('app1_7.urls')), # sending value from url
     path('app1_8/', include('app1_8.urls')), # sending value from webfrom
     path('app1_9/', include('app1_9.urls')), # ePanel
+    path('app2_1/', include('app2_1.urls')), # Model
     path('admin/', admin.site.urls), # http://127.0.0.1:8000/admin/
 ]
 urlpatterns += staticfiles_urlpatterns()

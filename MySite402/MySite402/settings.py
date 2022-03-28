@@ -46,6 +46,8 @@ INSTALLED_APPS = [
     'app1_7', # Sending values from client to server-1 (url)
     'app1_8', # Sending values from client to server-2 (webform)
     'app1_9', # ePanel for subscribtion and user feedback
+
+    'app2_1', # Model
 ]
 
 MIDDLEWARE = [
@@ -99,6 +101,13 @@ DATABASES = {
         'HOST': 'localhost',
         'PORT': '3306',
     }
+    
+    # Oracle
+    # MS SQL Server
+    # MS Access
+    # MS Excel
+    # MangoDB
+        
 """
 
 # Password validation

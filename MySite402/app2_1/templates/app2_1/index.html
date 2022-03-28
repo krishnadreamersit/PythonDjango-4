@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+    <h3>Counties</h3>
+    <table border="1" width="95%">
+        <tr><td>ID</td><td>NAME</td><td>REGION</td><td>POPULAION</td><td>AREA</td></tr>
+        {% for country in countries %}
+            <tr><td>{{ country.cid }}</td><td>{{ country.country }}</td><td>{{ country.region }}</td><td>{{ country.population }}</td><td>{{ country.area }}</td></tr>
+        {% endfor %}
+    </table>
+</body>
+</html>
