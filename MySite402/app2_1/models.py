@@ -10,6 +10,7 @@ class Person(models.Model):
     def __str__(self):
         return str(self.pid)+", "+self.fullName+", "+self.contactAddress
 
+
 class Person2(models.Model):
     pid = models.IntegerField(primary_key=True);
     fullName = models.CharField(max_length=50)
