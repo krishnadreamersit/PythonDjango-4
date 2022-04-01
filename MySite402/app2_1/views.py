@@ -5,7 +5,6 @@ from .models import Person2
 
 # Create your views here.
 
-
 def index(request):
     countries = Country.objects.all()
     for country in countries:

@@ -1,28 +1,19 @@
 from django.shortcuts import render
 from django.http import HttpResponse
 from django.http import HttpResponseRedirect
-
-# Create your views here.
-from app1_6 import database
+from .models import Email
 
 def index(request):
-    return render(request, "app1_6/index.html")
+    return render(request, "app2_2/index.html")
 
-# Step-2
 def gmail_email(request):
-    # Step-3 Receive value
-    tmpEmail = request.POST['email']
-    # print(tmpEmail)
-    # process -> insert on db table
-    # database.create_table()
-    result = database.insert_record(tmpEmail)
-    if result==True:
-        print("Insert record successfully")
-    else:
-        print("Error to insert record")
+    tmpEmail = request.POST['email'] # Receive value form Webform
+    email = Email() # Create an object of Model
+    email.email = tmpEmail # Assign/Initialize email
+    email.save() # Save data on database using an object of Model
     return HttpResponseRedirect('emails') # redirect to url pattern
 
 def display_emails(request):
-    emails = database.select_all()
-    # print(emails)
-    return HttpResponse(emails)
+    emails = Email.objects.all() # Get all records using Model
+    context = {'emails':emails}
+    return render(request, 'app2_2/emails.html', context) # redirect to template

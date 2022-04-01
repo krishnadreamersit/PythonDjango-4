@@ -12,7 +12,7 @@ def index(request):
 def gmail_email(request):
     # Step-3 Receive value
     tmpEmail = request.POST['email']
-    print(tmpEmail)
+    # print(tmpEmail)
     # process -> insert on db table
     # database.create_table()
     result = database.insert_record(tmpEmail)
@@ -24,5 +24,5 @@ def gmail_email(request):
 
 def display_emails(request):
     emails = database.select_all()
-    print(emails)
+    # print(emails)
     return HttpResponse(emails)
