@@ -2,6 +2,7 @@ from django.db import models
 
 # Create your models here.
 
+
 class Person(models.Model):
     pid = models.IntegerField();
     fullName = models.CharField(max_length=50)
@@ -18,7 +19,6 @@ class Person2(models.Model):
 
     def __str__(self):
         return str(self.pid)+", "+self.fullName+", "+self.contactAddress
-
 
 class Country(models.Model):
     cid = models.IntegerField(primary_key=True)

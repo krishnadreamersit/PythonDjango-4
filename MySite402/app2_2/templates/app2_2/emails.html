@@ -6,10 +6,10 @@
 </head>
 <body>
 <h3>All Email | <a href="./">Index</a></h3>
-<table>
-    <tr><td>ID</td><td>Email</td></tr>
+<table border="1" width="95%">
+    <tr><td>ID</td><td>Email</td><td>Manage</td></tr>
     {% for email in emails %}
-        <tr><td>{{ email.id }}</td><td>{{ email.email }}</td></tr>
+        <tr><td>{{ email.id }}</td><td>{{ email.email }}</td><td> <a href="update_form?eid={{ email.id }}">Edit</a> | <a href="delete_form?eid={{ email.id }}">Delete</a> </td></tr>
     {% endfor %}
 </table>
 </body>

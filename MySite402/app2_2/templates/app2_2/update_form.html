@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Edit Email</title>
+</head>
+<body>
+<h2>Edit Email</h2>
+<form action="update_email" method="post">
+    {% csrf_token %}
+    <p><input type="hidden" name="txtID" value="{{ email.id }}"></p>
+    <p>ID : <input type="text" value="{{ email.id }}" disabled></p>
+    <p>EMAIL : <input type="text" name="txtEmail" value="{{ email.email }}" size="50"></p>
+    <p><input type="submit" value="EDIT"></p>
+</form>
+</body>
+</html>

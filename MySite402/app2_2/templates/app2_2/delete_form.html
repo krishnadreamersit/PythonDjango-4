@@ -1,0 +1,17 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Delete Email</title>
+</head>
+<body>
+<h2>Delete Email</h2>
+<form action="delete_email" method="post">
+    {% csrf_token %}
+    <p><input type="hidden" name="txtID" value="{{ email.id }}"></p>
+    <p>ID : <input type="text" value="{{ email.id }}" disabled></p>
+    <p>EMAIL : <input type="text" value="{{ email.email }}" size="50" disabled></p>
+    <p><input type="submit" value="DELETE"></p>
+</form>
+</body>
+</html>
