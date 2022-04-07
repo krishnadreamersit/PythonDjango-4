@@ -19,6 +19,9 @@ from django.urls import path, include
 from . import views
 from django.contrib.staticfiles.urls import staticfiles_urlpatterns
 
+from django.conf import settings
+from django.conf.urls.static import static
+
 urlpatterns = [
     path('', views.default), # Default Url Pattern # http://localhost:8000 or http://127.0.0.1:8000
     path('index', views.index), # http://127.0.0.1:8000/index
@@ -28,13 +31,15 @@ urlpatterns = [
     path('app1_3/', include('app1_3.urls')),
     path('app1_4/', include('app1_4.urls')),
     path('app1_5/', include('app1_5.urls')), # testing bootstrap library
-    path('app1_6/', include('app1_6.urls')), # bootstrap one page site
+    path('app2_3/', include('app1_6.urls')), # bootstrap one page site
     path('app1_7/', include('app1_7.urls')), # sending value from url
     path('app1_8/', include('app1_8.urls')), # sending value from webfrom
     path('app1_9/', include('app1_9.urls')), # ePanel
     path('app2_1/', include('app2_1.urls')), # Model
     path('app2_2/', include('app2_2.urls')), # Model CRUD App-1
+    path('app2_3/', include('app2_3.urls')), # CMS using Model
 
     path('admin/', admin.site.urls), # http://127.0.0.1:8000/admin/
 ]
 urlpatterns += staticfiles_urlpatterns()
+urlpatterns += static(settings.MEDIA_URL, document_root=settings.MEDIA_ROOT)

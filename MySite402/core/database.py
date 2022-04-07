@@ -67,5 +67,5 @@ def select_all():
 # Test
 # create_table()
 # insert_record('krishna@gmail.com')
-insert_record('john@gmail.com')
-select_all()
+# insert_record('john@gmail.com')
+# select_all()

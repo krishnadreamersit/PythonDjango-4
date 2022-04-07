@@ -11,6 +11,7 @@ https://docs.djangoproject.com/en/4.0/ref/settings/
 """
 
 from pathlib import Path
+import os
 
 # Build paths inside the project like this: BASE_DIR / 'subdir'.
 BASE_DIR = Path(__file__).resolve().parent.parent
@@ -49,6 +50,7 @@ INSTALLED_APPS = [
 
     'app2_1', # Model
     'app2_2', # CRUD Model-1
+    'app2_3', # CMS Using Model
 ]
 
 MIDDLEWARE = [
@@ -153,3 +155,6 @@ STATICFILES_DIRS = ['static',] # Added
 
 DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 
+# File Upload
+MEDIA_URL = '/uploads/'
+MEDIA_ROOT = os.path.join(BASE_DIR, 'uploads')

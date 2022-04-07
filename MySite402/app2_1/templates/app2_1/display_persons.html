@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>All Persons</title>
+</head>
+<body>
+    <h2>All Persons</h2>
+    {% for person in persons %}
+        <p>{{ person.pid }}, {{ person.fullName }}, {{ person.contactAddress }}, <img src="{{ person.photograph.url }}"></p>
+    {% endfor %}
+</body>
+</html>

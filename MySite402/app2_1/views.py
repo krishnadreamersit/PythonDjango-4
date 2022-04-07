@@ -1,6 +1,7 @@
 from django.shortcuts import render
 from django.http import HttpResponse
 from .models import Country
+from .models import Person
 from .models import Person2
 
 # Create your views here.
@@ -13,6 +14,10 @@ def index(request):
     context = {'countries': countries}
     return render(request, 'app2_1/index.html',context)
 
+def display_persons(request):
+    persons = Person.objects.all()
+    context = {'persons':persons}
+    return render(request, 'app2_1/display_persons.html', context)
 
 def crud(request):
     # C -> Create (Insert New Record)
