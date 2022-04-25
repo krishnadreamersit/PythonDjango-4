@@ -1,11 +1,11 @@
 # 14 Utilities
     # 14.1 Date & time
-    # 14.2 Encryption
+    # 14.2 Encryption & Decryption
     # 14.3 Module, Package
     # 14.4 os Module
     # 14.5 sys Module
     # 14.6 Jupyter NoteBook
-    # 14.7 JupyterLab
+    # 14.7 Jupyter Lab
     # 14.8 Spyder IDE
     # 14.9 Others
 

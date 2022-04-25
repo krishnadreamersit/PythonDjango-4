@@ -3,6 +3,7 @@
     # int
     # float
     # str
+    # type cast (number to number) and type conversion (string to other/other to string)
 
 #1. bool - Boolean (True/False)
 """

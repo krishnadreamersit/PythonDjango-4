@@ -14,5 +14,8 @@ class Banner(models.Model):
     contents = models.TextField()
     photo = models.FileField()
 
+    class Meta:
+        ordering=['id']
+
     def __str__(self):
         return str(self.id)+", "+self.title+", "+self.photo.url

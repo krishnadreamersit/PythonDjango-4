@@ -38,6 +38,7 @@ urlpatterns = [
     path('app2_1/', include('app2_1.urls')), # Model
     path('app2_2/', include('app2_2.urls')), # Model CRUD App-1
     path('app2_3/', include('app2_3.urls')), # CMS using Model
+    path('app3_1/', include('app3_1.urls')), # Form
 
     path('admin/', admin.site.urls), # http://127.0.0.1:8000/admin/
 ]

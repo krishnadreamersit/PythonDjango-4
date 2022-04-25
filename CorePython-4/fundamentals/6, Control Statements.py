@@ -1,7 +1,8 @@
 # Control Statements
-    # Selection Statement
-    # Looping Statement
-    # Branching Statement
+    # Selection Statement (if)
+    # Looping Statement (while, for)
+    # Branching Statement (break, and continue)
+    # Other Statement (return, pass)
 
 # Selection Statements
 # Data Types

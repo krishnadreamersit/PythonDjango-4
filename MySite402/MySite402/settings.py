@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-yv6brdl7qvaok$020b2q^hu&x7klpxu-m&%=)y+lnr3jz%b)na
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['192.168.0.105']
+ALLOWED_HOSTS = ['192.168.0.103']
 
 
 # Application definition
@@ -51,6 +51,9 @@ INSTALLED_APPS = [
     'app2_1', # Model
     'app2_2', # CRUD Model-1
     'app2_3', # CMS Using Model
+
+    'app3_1', # Form
+
 ]
 
 MIDDLEWARE = [

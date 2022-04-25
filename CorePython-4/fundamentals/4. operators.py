@@ -7,6 +7,8 @@
 # 2. Arithmetic Operator [+, -, *, **, /, //, %, pow, sqrt]
 # 3. Relational Operator [==, !=, >, >=, <, <=]
 # 4. Logical Operator [and, or, not]
+# 5. Other operators
+    # in
 
 # 1. Assignment Operator [ = ]
 # 1.a. Simple Assignment Operator [ = ]
