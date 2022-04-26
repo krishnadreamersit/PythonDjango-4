@@ -12,3 +12,12 @@ class Model1(models.Model):
     def __str__(self):
         return str(self.id)+", "+self.name+", "+self.address
 
+
+# News Model
+class Model2(models.Model):
+    nid = models.IntegerField(help_text="ID", primary_key=True)
+    title = models.CharField(help_text="TITLE", max_length=100)
+    content = models.CharField(help_text="CONTENTS", max_length=5000)
+
+    def __str__(self):
+        return str(self.nid)+", "+self.title+", "+self.content
