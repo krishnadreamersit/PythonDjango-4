@@ -53,7 +53,7 @@ INSTALLED_APPS = [
     'app2_3', # CMS Using Model
 
     'app3_1', # Form
-
+    'app4_1', # ModelForm
 ]
 
 MIDDLEWARE = [
