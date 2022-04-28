@@ -40,6 +40,7 @@ urlpatterns = [
     path('app2_3/', include('app2_3.urls')), # CMS using Model
     path('app3_1/', include('app3_1.urls')), # Form
     path('app4_1/', include('app4_1.urls')), # ModelForm
+    path('app5_1/', include('app5_1.urls')), # TemplateLanguage
     path('admin/', admin.site.urls), # http://127.0.0.1:8000/admin/
 ]
 urlpatterns += staticfiles_urlpatterns()

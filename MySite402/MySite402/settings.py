@@ -26,7 +26,7 @@ SECRET_KEY = 'django-insecure-yv6brdl7qvaok$020b2q^hu&x7klpxu-m&%=)y+lnr3jz%b)na
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = ['192.168.0.103']
+ALLOWED_HOSTS = ['192.168.0.105']
 
 
 # Application definition
@@ -54,6 +54,8 @@ INSTALLED_APPS = [
 
     'app3_1', # Form
     'app4_1', # ModelForm
+
+    'app5_1', # Django Templates
 ]
 
 MIDDLEWARE = [
